@@ -29,7 +29,7 @@ public class LeilaoTest {
 
 	    Leilao leilao = new Leilao("Macbook Pro 15");
 	    BigDecimal doisMil = new BigDecimal("2000.0");
-	    
+
 	    @Nested
         @DisplayName("Quando propoe o lance")
         class AssertLanceNormal {
